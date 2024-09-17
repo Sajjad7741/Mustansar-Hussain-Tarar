@@ -75,44 +75,60 @@
   left: 322px;
   z-index: 2;
 }
-.books-wrapper {
-  width: 48%;
+.eu-trip {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+.content-wrapper > hr {
+  margin-bottom: 5px;
+}
+.eu-trip > div > img {
+  width: 19.2%;
+  height: 130px;
   display: inline-block;
-  padding: 20px 15px;
+  border: 1px solid #3fcdcd;
+  margin: 10px 0px 20px 20px;
 }
-.clearfix {
+.eu-trip > div > img:first-of-type {
+  margin-left: 0;
+}
+.eu-trip > div > img:last-of-type {
+  margin-right: 0;
+}
+.eu-trip > div > img + img {
+  margin-left: 5px;
+}
+
+.clearifx {
   clear: both;
+  float: none;
 }
-.image-wrap {
-  float: left;
-  width: 33%;
-}
-.image-wrap img {
-  width: 150px;
-  border: 3px solid red;
-}
-.book-details {
+
+.eu-trip .readmore {
   float: right;
-  width: 62%;
-}
-.book-details p {
-  font-size: 1.2em;
-  color: #000;
-  line-height: 25px;
-}
-.book-details .readmore {
   text-decoration: none;
   color: #fff;
   background: #d6005e;
-  padding: 12px 15px;
-  font-size: 1.2em;
-  margin-top: 10px;
+  padding: 15px 20px;
+  font-size: 1.25em;
+  font-weight: bold;
 }
-
+.readmore:hover {
+  background: #a353a2;
+}
 footer {
   background: #cccccc;
   padding: 10px 0;
   border-top: 1px solid #fff;
+}
+.clearfix {
+  clear: both;
 }
 .social-link {
   float: left;
@@ -133,7 +149,7 @@ footer {
 .social-link #fb {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: 0px -46px;
   text-indent: -9999em;
 }
@@ -141,7 +157,7 @@ footer {
   width: 45px;
   height: 46px;
   left: 15px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: 0px 0px;
 }
 
@@ -149,39 +165,39 @@ footer {
   width: 45px;
   height: 46px;
 
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -365px -46px;
 }
 .social-link #tw:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -365px 0px;
 }
 
 .social-link #gp {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -137px -46px;
 }
 .social-link #gp:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -137px 0px;
 }
 
 .social-link #in {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -273px -46px;
 }
 .social-link #in:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -273px 0px;
 }
 .news-letter {

@@ -77,98 +77,59 @@
 }
 .content-wrapper {
   width: 100%;
-  background: #ff9230;
-  padding-top: 20px;
+  background: #ed985b;
 }
-.post {
-  margin-bottom: 40px;
+.form-wrapper #contact-form {
+  margin: 15px;
 }
-.post-date {
-  float: left;
-  width: 10%;
-  background-image: url(../graphics/date_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 110px;
-  height: 110px;
-  text-align: center;
-}
-.post-date span {
-  font-size: 1em;
-  color: #000;
-}
-.post-date:first-of-type {
-  padding-top: 35px;
-  font-size: 1.6em;
-  font-weight: bold;
-}
-.post-content {
-  float: right;
-  width: 90%;
-  padding: 10px 20px;
-}
-.post-content a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-.post-content a:hover {
-  text-decoration: underline;
-}
-.post-content h3 {
-  font-size: 1.8em;
-  margin-bottom: 10px;
-}
-.post-content hr {
-  margin-top: 5px;
-  color: #fff;
-}
-.post-content .description {
-  margin-top: 20px;
-}
-.post-content .description p {
-  color: #000;
-  font-size: 1.2em;
-  line-height: 1.3em;
+.form-wrapper fieldset {
   margin-bottom: 20px;
 }
-.social-links ul {
-  list-style-type: none;
+#contact-form table {
+  padding: 15px;
 }
-.social-links ul li {
-  float: right;
-  padding-right: 10px;
+#contact-form legend {
+  font-size: 1.3em;
+  color: #000;
+  margin-left: 10px;
 }
-.social-links ul li a {
-  background-image: url(../graphics/social_sprite_share.jpg);
+#contact-form input,
+#contact-form label {
+  width: 450px;
+  height: 25px;
+  margin: 8px 5px;
+  font-size: 1.3em;
+  color: #000;
+}
+.form-wrapper #details {
+  width: 95%;
+  height: 300px;
+  margin: 5px auto 5px;
   display: block;
-  width: 110px;
-  line-height: 41px;
-  text-indent: -999em;
+  overflow: hidden;
 }
-.social-links ul li a:hover {
-  margin-top: 10px;
+#query label {
+  display: inline-block;
+  width: 100%;
+  color: #4f12ed;
+  font-size: 1em;
+  margin: 10px 25px;
 }
-.social-links .fb-share {
-  background-position: -154px -30px;
+#contact-form #form-button {
+  width: 120px;
+  height: 50px;
 }
-.social-links .tw-share {
-  background-position: -154px -95px;
+#contact-form #form-button:hover {
+  background-color: #f0f0f0;
 }
-.social-links .gp-share {
-  background-position: -312px -227px;
-}
-.social-links .ln-share {
-  background-position: -312px -161px;
-}
-.clearfix {
-  clear: both;
-  float: none;
-}
+
 footer {
   background: #cccccc;
   padding: 10px 0;
   border-top: 1px solid #fff;
+}
+.clearfix {
+  clear: both;
 }
 .social-link {
   float: left;
@@ -189,7 +150,7 @@ footer {
 .social-link #fb {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: 0px -46px;
   text-indent: -9999em;
 }
@@ -197,7 +158,7 @@ footer {
   width: 45px;
   height: 46px;
   left: 15px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: 0px 0px;
 }
 
@@ -205,39 +166,39 @@ footer {
   width: 45px;
   height: 46px;
 
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -365px -46px;
 }
 .social-link #tw:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -365px 0px;
 }
 
 .social-link #gp {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -137px -46px;
 }
 .social-link #gp:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -137px 0px;
 }
 
 .social-link #in {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -273px -46px;
 }
 .social-link #in:hover {
   width: 45px;
   height: 46px;
-  background: url(../graphics/social_sprite.png) 0 0 no-repeat;
+  background: url(graphics/social_sprite.png) 0 0 no-repeat;
   background-position: -273px 0px;
 }
 .news-letter {

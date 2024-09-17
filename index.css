@@ -55,80 +55,223 @@
   list-style-type: none;
 }
 .nav-menu li a {
-  display: block;
+  display: block; 
   color: #fff;
   text-decoration: none;
 }
-.nav-menu li a:hover {
+.nav-menu li a:hover{
   background: #768600;
 }
 #submenu ul {
   position: absolute;
   background: #a9b800;
-  left: -9999em;
+  left: -9999em;    
 }
-#submenu ul li {
-  clear: both;
-}
+#submenu ul li { clear: both; }
 
 #submenu:hover ul {
   left: 322px;
   z-index: 2;
 }
-.eu-trip {
+.hero-section {
   width: 100%;
-  padding: 10px 20px;
-  margin-bottom: 20px;
+  position: relative;
+  border: 2px solid #ffcc00;
+  margin-bottom: 10px;
+  height: 450px;
+  background-image: url(graphics/tarar1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-h1 {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin: 10px 5px;
+.intro-box {
+  width: 400px;
+  padding: 20px;
+  border: 3px solid #e7e7e7;
+  text-align: center;
+  color: #5048cc;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  line-height: 1.4em;
 }
-.content-wrapper > hr {
-  margin-bottom: 5px;
+.intro-box p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
-.eu-trip > div > img {
-  width: 19.2%;
-  height: 130px;
-  display: inline-block;
-  border: 1px solid #3fcdcd;
-  margin: 10px 0px 20px 20px;
-}
-.eu-trip > div > img:first-of-type {
-  margin-left: 0;
-}
-.eu-trip > div > img:last-of-type {
-  margin-right: 0;
-}
-.eu-trip > div > img + img {
-  margin-left: 5px;
-}
-
-.clearifx {
-  clear: both;
-  float: none;
-}
-
-.eu-trip .readmore {
-  float: right;
+.intro-box a {
   text-decoration: none;
   color: #fff;
-  background: #d6005e;
-  padding: 15px 20px;
+  background: rgb(217, 197, 157);
+  padding: 10px 15px;
   font-size: 1.25em;
   font-weight: bold;
 }
+.intro-box a:hover {
+  background: rgb(217, 180, 157);
+}
+.content-wrapper {
+  width: 100%;
+  padding: 0 15px 20px 15px;
+}
+.content-heading {
+  font-size: 2em;
+  color: #000;
+  font-weight: bold;
+  line-height: 1.6em;
+  padding-bottom: 4px;
+}
+hr {
+  margin-bottom: 15px;
+  border-top: 1px solid #fff;
+}
+.upcoming-releases {
+  width: 30%;
+  text-align: center;
+}
+.upcoming-releases.box1 {
+  float: left;
+  margin-left: 3%;
+}
+.upcoming-releases.box2 {
+  float: left;
+  margin-left: 3%;
+}
+.upcoming-releases.box3 {
+  float: left;
+  margin-left: 3%;
+}
+.clearfix {
+  clear: both;
+}
+.upcoming-releases .release-pic {
+  width: 150px;
+  height: 220px;
+  border: 2px solid #ffcc00;
+  margin-bottom: 5px;
+}
+.upcoming-releases.box1 {
+  background: #d1728b;
+  padding: 10px 10px 30px 10px;
+}
+.upcoming-releases.box2 {
+  background: #b5cd6a;
+  padding: 10px 10px 30px 10px;
+}
+.upcoming-releases.box3 {
+  background: #ce8738;
+  padding: 10px 10px 30px 10px;
+}
+.upcoming-releases p {
+  font-size: 1.2em;
+}
+.upcoming-releases :nth-child(5) {
+  margin-bottom: 25px;
+}
+.upcoming-releases a {
+  margin-top: 20px;
+  background: #d6005e;
+  padding: 15px 20px;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #fff;
+}
+.upcoming-releases a:hover {
+  background: #a353a2;
+}
+.event-div {
+  border: 2px solid red;
+  width: 100%;
+  height: 304px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.event-img {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+}
+.event-img img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid #5048cc;
+}
+.event-intro {
+  float: right;
+  width: 65%;
+  height: 100%;
+  margin-top: 5px;
+}
+.event-intro p {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.4em;
+  height: 70%;
+  display: inline-block;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.event-intro a {
+  float: right;
+  height: 20%;
+}
+.readmore {
+  text-decoration: none;
+  color: #fff;
+  background: #d6005e;
+  padding: 20px 25px;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 10px;
+}
 .readmore:hover {
   background: #a353a2;
+}
+.reviews-section {
+  margin: 10px 10px 0 0;
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+.reviewbox {
+  border: 1px solid #000;
+  width: 100%;
+  height: 70px;
+  padding: 5px 0px 10px 0px;
+}
+.reviewbox p {
+  color: #000;
+  font-size: 1.2em;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+.reviewbox a {
+  color: #cc0033;
+  font-size: 1em;
+  padding-right: 5px;
+}
+.reviewbox.box1 {
+  background: #ce6a96;
+}
+.reviewbox.box3 {
+  background: #ce6a96;
+}
+.reviewbox.box2 {
+  background: #ecb3ba;
+}
+.reviewbox.box4 {
+  background: #ecb3ba;
+}
+
+.review-readmore {
+  text-decoration: none;
+  float: right;
+  margin-top: 30px;
 }
 footer {
   background: #cccccc;
   padding: 10px 0;
   border-top: 1px solid #fff;
-}
-.clearfix {
-  clear: both;
 }
 .social-link {
   float: left;
